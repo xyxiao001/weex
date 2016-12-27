@@ -1,0 +1,21 @@
+<template>
+  <div>
+    <text class="text">{{ name }}</text>
+  </div>
+</template>
+
+<style>
+  .text {
+    font-size: 50;
+    color: #ff0000;
+  }
+</style>
+
+
+<script>
+  module.exports = {
+    data: {
+      name: 'NightCat'
+    }
+  }
+</script>
